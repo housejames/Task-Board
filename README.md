@@ -37,4 +37,4 @@ Task Board is a simple Kanban board for task management. It allows users to orga
 
 -Repo: https://github.com/housejames/Task-Board
 
--Deployed Site: 
+-Deployed Site: https://housejames.github.io/Task-Board/
