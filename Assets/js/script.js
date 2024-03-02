@@ -146,6 +146,14 @@ $(document).on("click", "#saveTaskBtn", handleAddTask);
 
 $("#saveTaskBtn").click(handleAddTask);
 
+$("#taskForm")[0].reset();
+
+// Update localStorage and render the task list
+localStorage.setItem("tasks", JSON.stringify(taskList));
+localStorage.setItem("nextId", nextId);
+renderTaskList();
+
+
 // Initialize task list and make lanes droppable on page load
 $(document).ready(function () {
   renderTaskList();
